@@ -1,0 +1,60 @@
+body {
+	max-width:1200px;
+	margin:0 auto;
+	font-family: 'Oswald', sans-serif;
+}
+
+#puzzleAnswer {
+	text-align: center;
+}
+
+#leftFloat {
+	float: left;
+	max-width:37%;
+	margin-left:10%;
+}
+
+#letterBank,
+#usedLetters {
+	margin-left:-20px;
+}
+
+#leftFloat #letterBank li {
+	cursor: pointer;
+	
+}
+
+#letterBank li,
+#usedLetters li {
+	list-style: none;
+	padding: 10px;
+	display: inline-block;
+	width:20px;
+	height:20px;
+	text-align: center;
+	font-weight:700;
+}
+
+#rightFloat {
+	float: right;
+	max-width: 37%;
+	margin-right:10%;
+}
+
+#leftFloat h3,
+#rightFloat h3 {
+	text-align: center;
+	font-weight: 300;
+}
+
+#loser,
+#winner {
+	position:absolute;
+	z-index: 1;
+	left:30%;
+	top:30%;
+	height:40%;
+	width:40%;
+	text-align: center;
+	display:none;
+}
