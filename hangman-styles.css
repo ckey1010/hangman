@@ -6,6 +6,7 @@ body {
 
 #puzzleAnswer {
 	text-align: center;
+	letter-spacing: .25em;
 }
 
 #leftFloat {
